@@ -10,7 +10,7 @@ ARFF Converter is a Python package designed to convert Attribute-Relation File F
 To install ARFF Converter, use pip:
 
 ``` bash
-pip install arff
+pip install arff-converter
 ```
 
 ## Usage
@@ -22,14 +22,14 @@ The package provides a command-line interface for easy conversion of ARFF files 
 To convert an ARFF file to an XLSX file, run the following command:
 
 ```bash
-arff <path_to_arff_file> <path_to_output_xlsx_file>
+arff-converter <path_to_arff_file> <path_to_output_xlsx_file>
 ```
 
 Replace <path_to_arff_file> with the path to your ARFF file and <path_to_output_xlsx_file> with the desired output path for the XLSX file.
 
 ### Example
 ```bash
-arff data.arff output.xlsx
+arff-converter data.arff output.xlsx
 ```
 
 This command will convert data.arff into an Excel file named output.xlsx.
